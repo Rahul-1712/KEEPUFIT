@@ -1,0 +1,113 @@
+footer{
+    background: #111111;
+}
+
+.footer_container{
+    padding: 100px;
+}
+
+.footer_container .footer_section{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footer_container .footer_section .footer_section_title{
+    color: white;
+    font-size: 36px;
+}
+
+.footer_container .footer_section .section_details{
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section_details ul{
+    padding: 0px;
+    list-style: none;
+}
+
+
+
+.section_details ul li{
+    padding: 10px;
+    width: auto;
+}
+
+.section_details ul li:hover{
+    color: white;
+    background: #494949;
+}
+
+.section_details a{
+    color: white;
+    width: auto;
+}
+
+.section_details a:hover{
+    text-decoration: none;
+}
+
+.social_media_icons{
+    display: flex;
+    padding:0px;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.social_media_icons i{
+    display: inline-block;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.social_media_icons i:hover{
+    background:#1778f2
+}
+
+.newsletter input{
+    background: #383838 none repeat scroll 0 0;
+    border: 1px solid #646464;
+    height: 50px;
+    padding: 0 24px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+
+.newsletter a{
+    background: #008b8b none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 15px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 36px;
+    transition: 0.3s;
+}
+
+.newsletter a:hover{
+    background: #007575 none repeat scroll 0 0;
+}
+
+.footer_copyright{
+    background: #000;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:70px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}

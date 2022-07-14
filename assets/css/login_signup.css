@@ -1,0 +1,98 @@
+.login_signup_container {
+  margin: 50px 0px;
+}
+
+.login_area,
+.goto_signup_area {
+  margin: 10px;
+  padding: 40px;
+  background-color: aliceblue;
+  height: 100%;
+}
+
+.login_header {
+  margin-bottom: 30px;
+}
+
+.login_form input {
+  background: white;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  height: 50px;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid transparent;
+}
+
+.login_form .error_message {
+    /* display: none; */
+  color: red;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.login_form a{
+  padding-left: 20px;
+  color: darkblue;
+}
+
+.login_form a:hover{
+  color: blue;
+}
+
+.login_btn {
+  color: white;
+  padding: 10px 30px;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: darkcyan;
+}
+
+.login_btn:hover {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(0, 156, 156);
+}
+
+.email_group {
+  display: flex;
+}
+
+.verfiy_btn {
+  color: white;
+  padding: 10px;
+  border-radius: 2px;
+  height: 100%;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: darkcyan;
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
+.verfiy_btn:hover {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(0, 156, 156);
+}
+
+#signup_email_otp,
+#signup_mobile_otp,
+#forgot_email_otp,
+#email_verify,
+#mobile_verify,
+#forgot_verify{
+    display: none;
+}
+
+.verified_message {
+    color: grey;
+    font-size: 20px;
+    white-space: nowrap;
+    margin-top: 10px;
+    margin-left: 10px;
+}
